@@ -11,7 +11,7 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:8000/api/register/", {
+    fetch("https://django-react-qvj1.onrender.com/api/register/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
