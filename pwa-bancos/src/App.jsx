@@ -8,7 +8,7 @@ import Registro from './pages/registro.jsx';
 
 function App() {
   return (
-    <div className="bg-slate-300 min-h-screen flex flex-col justify-center items-center p-5" >
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 min-h-screen flex flex-col justify-center items-center p-5 md:p-10 lg:p-20" >
       <Router >
         <Routes>
           <Route path="/login" element={<Iniciar_sesion />} /> 

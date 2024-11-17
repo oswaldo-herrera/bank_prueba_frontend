@@ -7,7 +7,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="flex justify-between items-center w-full fixed top-0 left-0 bg-blue-600 p-4">
+    <nav className="flex justify-between items-center w-full fixed top-0 left-0 bg-black p-4">
       <a href="/" className="text-white text-2xl font-bold">
         Home
       </a>

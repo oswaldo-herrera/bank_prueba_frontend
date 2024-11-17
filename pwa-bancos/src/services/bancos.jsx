@@ -51,14 +51,14 @@ const BankList = () => {
 
   return (
     <div className="flex flex-col items-center justify-center px-4 mt-14">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 text-center">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-4 text-white">
         Lista de Bancos
       </h1>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {filteredBanks.map((bank) => (
           <li
             key={bank.id}
-            className="flex flex-col items-center bg-white rounded-lg shadow-lg border hover:bg-slate-100 transition-all p-4"
+            className=" flex flex-col items-center bg-white rounded-lg shadow-lg border hover:bg-slate-100 p-4"
           >
             <Link to={`/bank/${bank.name}`} className="w-full text-center">
               <div className="text-lg font-bold mb-2">{bank.display_name}</div>

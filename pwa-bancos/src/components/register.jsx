@@ -67,7 +67,7 @@ function Register() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700"
+            className="w-full bg-gray-500 text-white py-2 px-4 rounded hover:bg-gray-700"
           >
             Register
           </button>

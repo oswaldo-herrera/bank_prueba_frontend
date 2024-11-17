@@ -42,11 +42,11 @@ const Cuentas = () => {
 
   return (
     <div className="flex flex-col items-center px-4 py-8 mt-10">
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-center">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-4 text-white">
         Cuentas asociadas
       </h2>
       {accounts[0]?.institution?.name && (
-        <h3 className="text-lg sm:text-xl md:text-2xl mb-6 text-gray-600 text-center">
+        <h3 className="text-lg sm:text-xl md:text-2xl mb-6 text-white text-center">
           Banco: {accounts[0].institution.name}
         </h3>
       )}
@@ -61,7 +61,7 @@ const Cuentas = () => {
               <strong>Saldo:</strong> {account.balance.current}
             </p>
             <Link to={`/cuenta/${account.id}/${account.link}`}>
-              <button className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition">
+              <button className="w-full bg-gray-500 text-white py-2 rounded-md hover:bg-gray-700 transition">
                 Ver transacciones
               </button>
             </Link>

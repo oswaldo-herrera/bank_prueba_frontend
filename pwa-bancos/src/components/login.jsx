@@ -61,7 +61,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
+            className="w-full bg-gray-500 text-white  py-2 rounded-md hover:bg-gray-700 transition"
           >
             Iniciar Sesión
           </button>
